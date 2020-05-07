@@ -8,8 +8,8 @@ class thisCard extends Component {
     }
     render(){
         return(
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src="./images/profileImage.png"></Card.Img>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" data-src="holder.js/100px160" />
                 <Card.Body>
                     Chris Eichhorn
                     <br></br>
