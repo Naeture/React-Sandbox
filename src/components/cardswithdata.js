@@ -1,7 +1,5 @@
 import React from 'react';
 
-const data = [];
-
 class CardsWithData extends React.Component {
     constructor(props) {
         super(props);
@@ -15,14 +13,11 @@ class CardsWithData extends React.Component {
     componentDidMount() {
         fetch("https://jsonplaceholder.typicode.com/users")
             .then(response => response.json())
-            .then(result => data.push(...result))
-            .then(
-                this.setState({
-                    error: null,
-                    isLoaded: true,
-                    items: [data]
-                }),
-            );
+            .then(result => this.setState({
+                error: null,
+                isLoaded: true,
+                items: result
+            }));
     }
 
     render() {
