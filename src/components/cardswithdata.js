@@ -27,6 +27,7 @@ class CardsWithData extends React.Component {
             return <div>Error : {error.message}</div>;
         } else {
             return (
+                !isLoaded ? <div>I'm totally loading right now.</div> :
                 <div>
                     <p style={{ background: 'gray', color: 'white' }}>cardswithdata.js</p>
                     <ul>
