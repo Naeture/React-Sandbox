@@ -9,7 +9,7 @@ class navbar extends Component {
     render() {
         return (
             <Navbar expand="lg">
-                <Navbar.Brand href="#home">react-sandbox</Navbar.Brand>
+                <Navbar.Brand href="#home">navbar.js > react-sandbox</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">

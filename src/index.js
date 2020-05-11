@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from './components/navbar';
 import Card from './components/card';
 import CardDeck from './components/carddeck';
+import CardsWithData from './components/cardswithdata.js';
 
 ReactDOM.render(
     <Container fluid>
@@ -16,6 +17,8 @@ ReactDOM.render(
               <Card />
               <br></br>
               <CardDeck />
+              <br></br>
+              <CardsWithData />
           </React.Fragment>
     </Container>, 
     document.getElementById('root')

@@ -10,8 +10,7 @@ class thisCardDeck extends Component {
     render(){
         return(
             <React.Fragment>
-                <h2 style={{ background: 'gray', color: 'white' }}>This is a CardDeck</h2>
-                <br></br>
+                <p style={{ background: 'gray', color: 'white' }}>carddeck.js</p>
                 <CardDeck>
                     <Card>
                         <Card.Header>Card Header</Card.Header>
